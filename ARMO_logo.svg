@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+        @keyframes backdrop {
+          0% {
+            transform: scale(1.1) rotateZ(45deg);
+            opacity: 0.1;
+          }
+
+          10% {
+            opacity: 1;
+          }
+
+          15% {
+            transform: scale(1) rotateZ(45deg);
+          }
+
+          50% {
+            transform: scale(1) rotateZ(0deg);
+          }
+
+          75% {
+            transform: scale(1.1) rotateZ(-45deg);
+            opacity: 1;
+          }
+
+          100% {
+            transform: scale(0.9) rotateZ(-45deg);
+            opacity: 0.1;
+          }
+        }
+
+				.container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 320px;
+          height: 320px;
+					font-family:
+						system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial,
+						sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+          letter-spacing: -1px;
+          background: #FFFFFF;
+          border-radius: 2px;
+				}
+
+        .logo {
+          position: relative;
+          width: 30%;
+        }
+
+        .logo svg {
+          position: relative;
+          display: block;
+          margin: 20%;
+          fill: #FFFFFF;
+        }
+
+        .backdrop {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(#8c9191, #1A1A1A);
+          border-radius: 100%;
+          animation: backdrop infinite both 10s 1s cubic-bezier(0.5, 0, 0.5, 1);
+        }
+
+        h1 {
+          margin: 24px 0 4px;
+          color: #1A1A1A;
+          font-weight: bold;
+          font-size: 24px;
+        }
+
+        h2 {
+          margin: 4px 0;
+          color: #0a6314;
+          font-size: 14px;
+        }
+
+			</style>
+			<div class="container">
+        <div class="logo">
+          <div class="backdrop"></div>
+          <svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      width="60" height="60">
+  <image width="60" height="60" xlink:href="https://icon-library.com/images/lidar-icon/lidar-icon-5.jpg"/>
+</svg>
+        </div>
+        <h1>ARMO</h1>
+				<p style="color:#808080;" align="center"> Alignment and Registration via Mathematical Optimization </p>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
+
