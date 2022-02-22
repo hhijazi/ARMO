@@ -80,17 +80,13 @@
           font-size: 14px;
         }
 
-			</style>
-			<div class="container">
-        <div class="logo">
-          <div class="backdrop"></div>
+			
           ```html
 <svg width="200" height="200"
   xmlns="http://www.w3.org/2000/svg">
   <image href="lidar-icon.png" height="200" width="200"/>
 </svg>
 ```
-        </div>
         <h1>ARMO</h1>
 				<p style="color:#808080;" align="center"> Alignment and Registration via Mathematical Optimization </p>
 			</div>
