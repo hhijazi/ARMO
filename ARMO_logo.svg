@@ -87,7 +87,7 @@
           <svg version="1.1"
      xmlns='http://www.w3.org/2000/svg' xmlns:xlink="http://www.w3.org/1999/xlink"
       width="60" height="60">
-  <image width="60" height="60" xlink:href=lidar-icon.png"/>
+  <image width="60" height="60" href="lidar-icon.png"/>
 </svg>
         </div>
         <h1>ARMO</h1>
